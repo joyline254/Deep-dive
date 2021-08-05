@@ -1,4 +1,5 @@
 
+
 $(document).ready( function() {
     $('.assesment h2').click( function() {
         $('.assesment img').toggle();
@@ -13,6 +14,7 @@ $(document).ready( function() {
     });
 
 
+
     $("#h-six").click(function(){
         //$("#hide-about-us").show();
         $("#hide-about-us").toggle();
@@ -23,6 +25,4 @@ $(document).ready( function() {
     });
 
 });
-
-
 
