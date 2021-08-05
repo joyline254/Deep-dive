@@ -18,6 +18,14 @@
 #hide-about-us{
     display: none;
 }
+#h-six{
+    color: ivory;
+
+}
+#us{
+    color: ivory;
+}
+
 #the-team{
     display: flex;
     align-items: center;
@@ -53,6 +61,18 @@ h2{
     background-color: #01161e;
 }
 
+/*Styling the social media icons*/
+#social-logos{
+    background-color: #124559;
+}
+/*Styling the awards part*/
+#awards{
+    background-color: #022333;
+    color: ivory;
+}
+#FOOTER{
+    background-color: #022333;
+}
 
 
 
