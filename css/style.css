@@ -27,9 +27,9 @@
 .profiles p{
     display: inline;
 }
-.work p {
+#jobs-a {
     display: none;
 }
-.work button{ 
+#jobs-p { 
     display:none
 }
