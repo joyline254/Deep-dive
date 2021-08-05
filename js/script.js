@@ -1,5 +1,6 @@
+
+
 $(document).ready( function() {
-    /**jQuery effects */
     $('.assesment h2').click( function() {
         $('.assesment img').toggle();
     });
@@ -11,4 +12,17 @@ $(document).ready( function() {
         $('#jobs-p').toggle();
         $('#jobs-a').toggle();
     });
+
+
+
+    $("#h-six").click(function(){
+        //$("#hide-about-us").show();
+        $("#hide-about-us").toggle();
+
+    });
+    $("#main-log-in").click(function(){
+        $("#log-in-form").toggle();
+    });
+
 });
+
