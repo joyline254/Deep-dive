@@ -1,3 +1,4 @@
+
 #work {
     padding: 3rem;
     border: 1px solid gray;
@@ -50,3 +51,117 @@
 /* .img-right {
     float: inherit;
 } */
+#ending {
+    list-style-type: none;
+}
+.col-md-2 {
+    float: left;
+}
+#main-log-in{
+    display: flex;
+    float: right;
+    background-color: rgb(34, 62, 139);
+}
+
+/*Styling h1*/
+h1{
+    text-align: center;
+    align-items: center;
+    background-color: #01161e;
+    color: rgb(144, 94, 190);
+}
+
+/*This is the log in form*/
+.needs-validation{
+    background-image: url(/resources/images/key1.jpeg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    text-align: center;
+    color: whitesmoke;
+
+}
+/*To hide the log in form*/
+#log-in-form{
+    display: none;
+}
+/*Styling the about us part*/
+#hide-about-us{
+    display: none;
+}
+#h-six{
+    color: ivory;
+
+}
+#us{
+    color: ivory;
+}
+
+#the-team{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(/resources/images/teamwork.webp) ;
+    background-position:inherit;
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+
+/*Styling heading one*/
+#heading-form-1{
+    font-size: large;
+    font-weight: bolder;
+}
+
+.form-2{
+    background-image: url(/resources/images/grey.jpg);
+    background-position: inherit;
+    background-size: inherit;
+    background-repeat: no-repeat;
+    color: lightblue;
+}
+/*Styling the heading of form2*/
+#heading-form-2{
+    
+    text-align: center;
+}
+/*Styling the header*/
+h2{
+    background-color: #01161e;
+}
+
+/*Styling the social media icons*/
+#social-logos{
+    background-color: #124559;
+}
+/*Styling the awards part*/
+#awards{
+    background-color: #022333;
+    color: ivory;
+}
+#FOOTER{
+    background-color: #022333;
+    
+}
+
+/*ON THE HEADER THE FIRST ELEMENTS*/
+.nav-item{
+    display: flex;
+    float:left;
+    margin-right: 3rem;
+    text-align: center;
+    background-color: #124559;
+    
+}
+
+
+
+
+
+
+
+
+
+
