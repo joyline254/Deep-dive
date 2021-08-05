@@ -13,7 +13,10 @@
     color: whitesmoke;
 
 }
-
+/*To hide the log in form*/
+#log-in-form{
+    display: none;
+}
 /*Styling the about us part*/
 #hide-about-us{
     display: none;
