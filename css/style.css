@@ -33,3 +33,20 @@
 #jobs-p { 
     display:none
 }
+#work h2:hover{
+    text-shadow: 2px 2px 3px #01161E;
+    cursor: pointer;
+}
+.assesment img {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 100%;
+    margin: 0.3rem;
+    display: none;
+}
+.img-left {
+    float: left;
+}
+/* .img-right {
+    float: inherit;
+} */
