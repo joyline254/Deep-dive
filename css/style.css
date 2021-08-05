@@ -1,0 +1,22 @@
+#ending {
+    list-style-type: none;
+}
+.col-md-2 {
+    float: left;
+}
+.needs-validation{
+    background-image: url(/resources/images/key1.jpeg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: inherit;
+    text-align: center;
+    color: whitesmoke;
+
+}
+.form-2{
+    background-image: url(/resources/images/grey.jpg);
+    background-position: inherit;
+    background-size: inherit;
+    background-repeat: no-repeat;
+    color: lightblue;
+}

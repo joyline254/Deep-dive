@@ -33,7 +33,35 @@
                         <li>About us</li>
                         <li>Contact us</li>
                     </ul>
-                    <button type="button">LOG IN</button>
+                    <button type="button"><span class="spinner-grow spinner-grow-sm"></span>LOG IN</button><br><br>
+                    <form  class="needs-validation" novalidate>
+                        <div id="form-heading">DEEP DIVE</div>
+                        <div class="form-group">
+                            <label   for="email"></label>
+                            <input placeholder="Email or Username" type="email" name="email"><br><br>
+                            
+                        </div>
+
+                        <div class="form-group">
+                            <label for="password"></label>
+                            <input placeholder="password" type="password"  name="password"><br><br>
+                        </div>
+
+
+                        <div class="form-group form-check" id="terms">
+                            <input type="checkbox">
+                            <label for="terms ">Remember me </label>
+                        </div>
+
+                        <div >
+                            <button type="button" class="btn btn-primary">Log In</button>
+                        </div>
+
+                        <div class="form-group">
+                            Don't have an account? <span>Sign Up</span><br><br>
+                        </div>
+                       
+                    </form>
                 </div>
             </nav>
     
@@ -43,12 +71,36 @@
 
             <div class="home" id="home">
                 <div class="sign-up">
-                    <button class="btn btn-primary">SIGN UP</button>
+                    <button class="btn btn-primary" >SIGN UP</button><br><br>
+                    <form class="form-2">
+
+                        <div>
+                            <label for="name">NAME</label>
+                            <input placeholder="Your name" type="text" id="name" name="name" required><br><br>
+                        </div>
+
+                        <div>
+                            <label   for="email" >EMAIL</label>
+                            <input placeholder="Your email please" type="email" name="email" required><br><br>
+                        </div>
+
+                        <div class="terms" id="terms">
+                            <input type="checkbox" required>
+                            <label aria-required="true" for="terms ">I agree to Deep Dive user agreement and privacy policy</label>
+                        </div>
+                        <div class="join">
+                            <button type="button" class="btn" onclick="alert('An confirmation was sent to your email.Please check')" >Join Deep Dive</button>
+                        </div>
+                        <div>
+                            Already have an account? <span>Log in</span><br><br>
+                        </div>
+                       
+                    </form>
                 </div>
             </div>
             <div class="work" id="WORK">
 
-                <div class="vacancies">
+                <!-- <div class="vacancies"> 
                     VACANCIES
                 </div>
 
@@ -67,39 +119,39 @@
             </div>
 
     
-        </main>
+        </main>-->
     
         <footer>
             <div>
 
-                <ul>
-                    <li>About us</li>
-                    <li>Jobs</li>
-                    <li>Newsletter</li>
-                    <li>Free-lancer</li>
-                    <li>FAQ</li>
-                    <li>Terms and conditions</li>
+                <ul class="row" id="ending">
+                    <li class="col-md-2">About us</li>
+                    <li class="col-md-2">Jobs</li>
+                    <li class="c0l-md-2" >Newsletter</li>
+                    <li class="col-md-2" >Free-lancer</li>
+                    <li class="col-md-2">Terms and conditions</li>
+                    <li class="col-md-2">FAQ</li>
                 </ul>
 
             </div>
 
             <div class="row sociallogos">
-                <div class="col-md-3 col-xs-12">
+                <div class="col-md-6 col-xs-12">
                     <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
                     <p>TWITTER</p>
                 </div>
 
-                <div class="col-md-3">
+                <div class="col-md-6">
                     <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
                     <p>FACEBOOK</p>
                 </div>
 
-                <div class="col-md-3">
+                <div class="col-md-6">
                     <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
                     <p>LINKEDIN</p>
                 </div>
 
-                <div class="col-md-3">
+                <div class="col-md-6">
                     <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
                 <p>INSTAGRAM</p>
                 </div>
@@ -109,6 +161,7 @@
         </footer>
 
     </div>
+    <script src="js/script.js"></script>
   
 </body>
 
