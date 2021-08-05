@@ -1,7 +1,22 @@
 #work {
+    background-color: #598397;
+    font-family: monospace;
     padding: 3rem;
-    border: 1px solid gray;
-    margin: 1.5rem;
+    border: none;
+    margin: 1rem;
+    border-radius: 0.5rem;
+}
+
+#work p {
+    text-align: center;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+#work h2 {
+    margin-left: 5rem;
+}
+.icons {
+    margin-left: 50%;
 }
 
 /* .col-md-4 p {
@@ -17,6 +32,8 @@
     display: none;
 }
 .profiles {
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
     display: none;
 }
 .profiles img{
@@ -26,8 +43,18 @@
 }
 .profiles p{
     display: inline;
+    text-align: center;
 }
+.profiles:hover{
+    cursor: pointer;
+}
+.jobs {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
 #jobs-a {
+    margin-left: 5rem;
     display: none;
 }
 #jobs-p { 
@@ -37,11 +64,16 @@
     text-shadow: 2px 2px 3px #01161E;
     cursor: pointer;
 }
+.partners {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
 .assesment img {
     height: 5rem;
     width: 5rem;
     border-radius: 100%;
     margin: 0.3rem;
+    margin-left: 4rem;
     display: none;
 }
 .img-left {
