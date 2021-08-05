@@ -1,4 +1,5 @@
 $(document).ready( function() {
+    /**jQuery effects */
     $('.assesment h2').click( function() {
         $('.assesment img').toggle();
     });
