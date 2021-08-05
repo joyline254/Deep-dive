@@ -4,6 +4,12 @@
     margin: 1.5rem;
 }
 
+/* .col-md-4 p {
+    text-align: center;
+}
+.col-md-4 h2 {
+    text-align: center;
+} */
 .col-md-3 img {
     height: 10rem;
     width: 10rem;
@@ -20,4 +26,10 @@
 }
 .profiles p{
     display: inline;
+}
+.work p {
+    display: none;
+}
+.work button{ 
+    display:none
 }
