@@ -1,3 +1,56 @@
+
+#work {
+    padding: 3rem;
+    border: 1px solid gray;
+    margin: 1.5rem;
+}
+
+/* .col-md-4 p {
+    text-align: center;
+}
+.col-md-4 h2 {
+    text-align: center;
+} */
+.col-md-3 img {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 100%;
+    display: none;
+}
+.profiles {
+    display: none;
+}
+.profiles img{
+    height: 5rem;
+    width: 5rem;
+    margin: 0.3rem;
+}
+.profiles p{
+    display: inline;
+}
+#jobs-a {
+    display: none;
+}
+#jobs-p { 
+    display:none
+}
+#work h2:hover{
+    text-shadow: 2px 2px 3px #01161E;
+    cursor: pointer;
+}
+.assesment img {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 100%;
+    margin: 0.3rem;
+    display: none;
+}
+.img-left {
+    float: left;
+}
+/* .img-right {
+    float: inherit;
+} */
 #ending {
     list-style-type: none;
 }
