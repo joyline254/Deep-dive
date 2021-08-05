@@ -3,3 +3,10 @@
     border: 1px solid gray;
     margin: 1.5rem;
 }
+
+.col-md-3 img {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 100%;
+    display: none;
+}
