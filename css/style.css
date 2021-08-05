@@ -4,6 +4,9 @@
     border: 1px solid gray;
     margin: 1.5rem;
 }
+#work h2 {
+    background-color: transparent;
+}
 
 /* .col-md-4 p {
     text-align: center;
