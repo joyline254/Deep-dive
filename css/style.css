@@ -8,11 +8,34 @@
     background-image: url(/resources/images/key1.jpeg);
     background-position:center;
     background-repeat: no-repeat;
-    background-size: inherit;
+    background-size: 50%;
     text-align: center;
     color: whitesmoke;
 
 }
+
+/*Styling the about us part*/
+#hide-about-us{
+    display: none;
+}
+#the-team{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(/resources/images/teamwork.webp) ;
+    background-position:inherit;
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+
+/*Styling heading one*/
+#heading-form-1{
+    font-size: large;
+    font-weight: bolder;
+}
+
 .form-2{
     background-image: url(/resources/images/grey.jpg);
     background-position: inherit;
@@ -20,3 +43,22 @@
     background-repeat: no-repeat;
     color: lightblue;
 }
+/*Styling the heading of form2*/
+#heading-form-2{
+    
+    text-align: center;
+}
+/*Styling the header*/
+h2{
+    background-color: #01161e;
+}
+
+
+
+
+
+
+
+
+
+

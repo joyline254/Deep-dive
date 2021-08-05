@@ -22,85 +22,67 @@
 <body>
     <div class="container-fluid">
         <header>
-            <nav>
-                <div>
+            <nav class="navbar navbar-default">
+                <div class="navbar-brand">
                     <h2>DEEP DIVE</h2>
                 </div>
-    
+
                 <div>
                     <ul>
-                        <li>Home</li>
-                        <li>About us</li>
-                        <li>Contact us</li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#this-is-us">About Us</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Contact us</a>
+                        </li>
                     </ul>
                     <button type="button"><span class="spinner-grow spinner-grow-sm"></span>LOG IN</button><br><br>
-                    <form  class="needs-validation" novalidate>
-                        <div id="form-heading">DEEP DIVE</div>
-                        <div class="form-group">
-                            <label   for="email"></label>
-                            <input placeholder="Email or Username" type="email" name="email"><br><br>
-                            
-                        </div>
-
-                        <div class="form-group">
-                            <label for="password"></label>
-                            <input placeholder="password" type="password"  name="password"><br><br>
-                        </div>
-
-
-                        <div class="form-group form-check" id="terms">
-                            <input type="checkbox">
-                            <label for="terms ">Remember me </label>
-                        </div>
-
-                        <div >
-                            <button type="button" class="btn btn-primary">Log In</button>
-                        </div>
-
-                        <div class="form-group">
-                            Don't have an account? <span>Sign Up</span><br><br>
-                        </div>
-                       
-                    </form>
                 </div>
             </nav>
-    
-        </header>
-    
-        <main>
+            <form class="needs-validation" novalidate>
+                <div class="form-group">
+                    <div id="form-heading-1">DEEP DIVE <img src="./resources/images/feather-alt-solid.svg"
+                            type="image/x-icon" height="110">
+                    </div>
 
-            <div class="home" id="home">
-                <div class="sign-up">
-                    <button class="btn btn-primary" >SIGN UP</button><br><br>
-                    <form class="form-2">
+                    <label for="email"></label>
+                    <input placeholder="Email or Username" type="email" name="email"><br><br>
 
-                        <div>
-                            <label for="name">NAME</label>
-                            <input placeholder="Your name" type="text" id="name" name="name" required><br><br>
-                        </div>
-
-                        <div>
-                            <label   for="email" >EMAIL</label>
-                            <input placeholder="Your email please" type="email" name="email" required><br><br>
-                        </div>
-
-                        <div class="terms" id="terms">
-                            <input type="checkbox" required>
-                            <label aria-required="true" for="terms ">I agree to Deep Dive user agreement and privacy policy</label>
-                        </div>
-                        <div class="join">
-                            <button type="button" class="btn" onclick="alert('An confirmation was sent to your email.Please check')" >Join Deep Dive</button>
-                        </div>
-                        <div>
-                            Already have an account? <span>Log in</span><br><br>
-                        </div>
-                       
-                    </form>
                 </div>
-            </div>
-            <div class="work" id="WORK">
 
-                <!-- <div class="vacancies"> 
+                <div class="form-group">
+                    <label for="password"></label>
+                    <input placeholder="password" type="password" name="password"><br><br>
+                </div>
+
+
+                <div class="form-group form-check" id="terms">
+                    <input type="checkbox">
+                    <label for="terms ">Remember me </label>
+                </div>
+
+                <div>
+                    <button type="button" class="btn btn-primary">Log In</button>
+                </div>
+
+
+                <div class="form-group">
+                    Don't have an account? <span>Sign Up</span><br><br>
+                </div>
+
+            </form>
+    </div>
+
+
+    </header>
+
+    <main>
+            <!-- <div class="vacancies"> 
                     VACANCIES
                 </div>
 
@@ -120,49 +102,87 @@
 
     
         </main>-->
-    
-        <footer>
-            <div>
 
-                <ul class="row" id="ending">
-                    <li class="col-md-2">About us</li>
-                    <li class="col-md-2">Jobs</li>
-                    <li class="c0l-md-2" >Newsletter</li>
-                    <li class="col-md-2" >Free-lancer</li>
-                    <li class="col-md-2">Terms and conditions</li>
-                    <li class="col-md-2">FAQ</li>
-                </ul>
+            <footer>
+                <div>
 
-            </div>
+                    <ul class="row" id="ending">
+                        <li id="this-is-us">ABOUT US
+                            <div id="hide-about-us">
 
-            <div class="row sociallogos">
-                <div class="col-md-6 col-xs-12">
-                    <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
-                    <p>TWITTER</p>
+                                <p id="us">
+                                    We are the world's largest free-lancing and crowdsourcing marketplace.<br>
+                                    We connect over 100 000 employers and freelancer from all over the world.<br>
+                                    Not to mention all countries,regions and territories.
+
+                                    Through our marketplace,<br> employers can hire freelancers to do work in areas such as
+                                    software development, writing, data entry and design right through to engineering, the
+                                    sciences, sales and marketing, accounting and legal services.
+                                </p>
+                                <div  id="the-team">
+                                    <p>
+                                        Meet the wonderfull team of deep dive<br><br>
+                                        <b>Love your job</b><br><br>
+                                        People work with us for different reasons - not just the usual tech company perks. People work with us for the challenge, our scale, our open-source technology, the push to constantly up-skill, and the direct impact you will have on our business and its products.
+                                        
+                                        
+                                    </p>
+                                </div>
+                                
+                            </div>
+                           
+                        </li>
+                        <li class="col-md-2">
+                            <a class="nav-link active" aria-current="page" href="#work">JOBS</a>
+                        </li>
+
+                        <li class="c0l-md-2">
+                            NEWSLETTER
+                        </li>
+
+                        <li class="col-md-2"> <a class="nav-link active" aria-current="page" href="#">FREELANCER</a>
+                        </li>
+
+                        <li class="col-md-2">
+                            <a class="nav-link active" href="./terms.html" target="_blank">TERMS AND CONDITIONS</a>  
+                            
+                        </li>
+
+                        <li class="col-md-2">
+                            <a class="nav-link active" aria-current="page" href="#">FAQS</a>
+                        </li>
+                    </ul>
+
                 </div>
 
-                <div class="col-md-6">
-                    <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
-                    <p>FACEBOOK</p>
+                <div class="row sociallogos">
+                    <div class="col-md-6 col-xs-12">
+                        <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+                        <p>TWITTER</p>
+                    </div>
+
+                    <div class="col-md-6">
+                        <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+                        <p>FACEBOOK</p>
+                    </div>
+
+                    <div class="col-md-6">
+                        <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+                        <p>LINKEDIN</p>
+                    </div>
+
+                    <div class="col-md-6">
+                        <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+                        <p>INSTAGRAM</p>
+                    </div>
+
                 </div>
 
-                <div class="col-md-6">
-                    <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
-                    <p>LINKEDIN</p>
-                </div>
+            </footer>
 
-                <div class="col-md-6">
-                    <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
-                <p>INSTAGRAM</p>
-                </div>
-                
-            </div>
-    
-        </footer>
+        </div>
+        <script src="js/script.js"></script>
 
-    </div>
-    <script src="js/script.js"></script>
-  
 </body>
 
 </html>
