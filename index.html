@@ -16,39 +16,80 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="./resources/icons/font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="./js/jquery-3.6.0.js" crossorigin="anonymous" defer></script>
+    <script src="./js/script.js" defer></script>
 
 </head>
 
 <body>
+    <div>
+        <h1>DEEP DIVE</h1>
+    </div>
     <div class="container-fluid">
         <header>
-            <nav>
-                <div>
-                    <h2>DEEP DIVE</h2>
+            <img src="/resources/images/feather-alt-solid.svg"height="100">
+            KEEP CHOOSING DEEP DIVE<br>
+            THANK YOU FOR CHOOSING DEEP DIVE
+            <nav class="navbar navbar-default">
+                <div > 
                 </div>
-    
+
                 <div>
                     <ul>
-                        <li>Home</li>
-                        <li>About us</li>
-                        <li>Contact us</li>
-                    </ul>
-                    <button type="button">LOG IN</button>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#h-six">About Us</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#social-logos">Contact us</a>
+                        </li>
+                    </ul><br><br> 
+                    <button id="main-log-in" type="button"><span class="spinner-grow spinner-grow-sm"></span>LOG IN</button><br><br>
                 </div>
             </nav>
-    
-        </header>
-    
-        <main>
+            <form id="log-in-form" class="needs-validation" novalidate>
+                <div class="form-group">
+                    <div id="form-heading-1">DEEP DIVE <img src="./resources/images/feather-alt-solid.svg"
+                            type="image/x-icon" height="110">
+                    </div>
 
-            <div class="home" id="home">
-                <div class="sign-up">
-                    <button class="btn btn-primary">SIGN UP</button>
+                    <label for="email"></label>
+                    <input placeholder="Email or Username" type="email" name="email" required><br><br>
+
                 </div>
-            </div>
-            <div class="work" >
 
-                <div class="vacancies">
+                <div class="form-group">
+                    <label for="password"></label>
+                    <input placeholder="password" type="password" name="password" required><br><br>
+                </div>
+
+
+                <div class="form-group form-check" id="terms">
+                    <input type="checkbox" required>
+                    <label for="terms ">Remember me </label>
+                </div>
+
+                <div>
+                    <button type="button" class="btn btn-primary">Log In</button>
+                </div>
+
+
+                <div class="form-group">
+                   <p> Don't have an account? <a class="nav-link active" aria-current="page" href="#">SIGN UP</a><br><br></P>
+                </div>
+
+            </form>
+    </div>
+
+
+    </header>
+
+    <main>
+            <!-- <div class="vacancies"> 
                     VACANCIES
                 </div>
 
@@ -67,33 +108,93 @@
             </div>
 
     
-        </main>
-    
-        <footer>
-            <div>
+        </main>-->
 
-                <ul>
-                    <li>About us</li>
-                    <li>Jobs</li>
-                    <li>Newsletter</li>
-                    <li>Free-lancer</li>
-                    <li>FAQ</li>
-                    <li>Terms and conditions</li>
-                </ul>
+            <footer id="FOOTER">
+                <div>
 
-            </div>
+                    <ul class="row" id="ending">
+                        <li><h6 id="h-six">ABOUT-US</h6>
+                            <div id="hide-about-us">
 
-            <div class="sociallogos">
-                <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
-                <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
-                <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
-                <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
-            </div>
-    
-        </footer>
+                                <p id="us">
+                                    We are the world's largest free-lancing and crowdsourcing marketplace.<br>
+                                    We connect over 100 000 employers and freelancer from all over the world.<br>
+                                    Not to mention all countries,regions and territories.
 
-    </div>
-  
+                                    Through our marketplace,<br> employers can hire freelancers to do work in areas such as
+                                    software development, writing, data entry and design right through to engineering, the
+                                    sciences, sales and marketing, accounting and legal services.
+                                </p>
+                                <div  id="the-team">
+                                    <p>
+                                        Meet the wonderfull team of deep dive<br><br>
+                                        <b>Love your job</b><br><br>
+                                        People work with us for different reasons - not just the usual tech company perks. People work with us for the challenge, our scale, our open-source technology, the push to constantly up-skill, and the direct impact you will have on our business and its products.
+                                        
+                                        
+                                    </p>
+                                </div>
+                                
+                            </div>
+                           
+                        </li>
+                        <li class="col-md-2">
+                            <a class="nav-link active" aria-current="page" href="#work">JOBS</a>
+                        </li>
+
+                        <li class="col-md-2"> <a class="nav-link active" aria-current="page" href="#">FREELANCER</a>
+                        </li>
+
+                        <li class="col-md-2">
+                            <a class="nav-link active" href="./terms.html" target="_blank">TERMS AND CONDITIONS</a>  
+                            
+                        </li>
+
+                        <li class="col-md-2">
+                            <a class="nav-link active" aria-current="page" href="#">NEWSLETTER</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="row sociallogos" id="social-logos">
+                    <div class="col-md-3 col-xs-12">
+                        <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+                        <a class="nav-link active" aria-current="page" href="https://twitter.com/">TWITTER</a>
+                    </div>
+
+                    <div class="col-md-3">
+                        <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+                        <p><a class="nav-link active" aria-current="page" href="https://www.facebook.com/">FACEBOOK</a></p>
+                    </div>
+
+                    <div class="col-md-3">
+                        <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+                        <p><a class="nav-link active" aria-current="page" href="https://ke.linkedin.com/">LINKEDIN</a></p>
+                    </div>
+
+                    <div class="col-md-3">
+                        <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+                        <p><a class="nav-link active" aria-current="page" href="https://www.instagram.com/">INSTAGRAM</a></p>
+
+                    </div>
+
+                    </div><br>
+
+                    <div class="col-md-3 " >
+                       <p id="awards"> AWARDS</p> 
+                       <img src="./resources/images/award2.jpg"height="75"><img src="./resources/images/award3.jpeg" height="75">
+                       <img src="./resources/images/award 4.jpeg" height="75"><img src="/resources/images/finalaward.jpg" height="75">
+                    </div><br>
+
+
+            </footer>
+
+        </div>
+
+        <script src="js/script.js"></script>
+
 </body>
 
 </html>
