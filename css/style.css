@@ -4,6 +4,21 @@
 .col-md-2 {
     float: left;
 }
+#main-log-in{
+    display: flex;
+    float: right;
+    background-color: rgb(34, 62, 139);
+}
+
+/*Styling h1*/
+h1{
+    text-align: center;
+    align-items: center;
+    background-color: #01161e;
+    color: rgb(144, 94, 190);
+}
+
+/*This is the log in form*/
 .needs-validation{
     background-image: url(/resources/images/key1.jpeg);
     background-position:center;
@@ -75,7 +90,19 @@ h2{
 }
 #FOOTER{
     background-color: #022333;
+    
 }
+
+/*ON THE HEADER THE FIRST ELEMENTS*/
+.nav-item{
+    display: flex;
+    float:left;
+    margin-right: 3rem;
+    text-align: center;
+    background-color: #124559;
+    
+}
+
 
 
 
