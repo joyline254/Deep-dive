@@ -1,98 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Deep Dive</title>
-    <link
-      rel="shortcut icon"
-      href="./resources/images/feather-alt-solid.svg"
-      type="image/x-icon"
-    />
-    <!-- CSS only -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
-      crossorigin="anonymous"
-    />
 
-    <!-- JavaScript Bundle with Popper -->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
-      crossorigin="anonymous"
-    ></script>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Deep Dive</title>
+  <link rel="shortcut icon" href="./resources/images/feather-alt-solid.svg" type="image/x-icon" />
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
 
-    <link rel="stylesheet" href="css/style.css" />
-    <link
-      rel="stylesheet"
-      href="./resources/icons/font-awesome-4.7.0/css/font-awesome.min.css"
-    />
-  </head>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+    crossorigin="anonymous"></script>
 
-  <body>
-    <div class="container-fluid">
-      <header>
-        <nav>
-          <div>
-            <h2>DEEP DIVE</h2>
-          </div>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="./resources/icons/font-awesome-4.7.0/css/font-awesome.min.css" />
+</head>
 
-          <div>
-            <ul>
-              <li>Home</li>
-              <li>About us</li>
-              <li>Contact us</li>
-            </ul>
-            <button type="button">LOG IN</button>
-          </div>
-        </nav>
-        <div class="container-fluid"></div>
-      </header>
-
-      <main>
-        <div class="home" id="home">
-          <div class="sign-up">
-            <button class="btn btn-primary">SIGN UP</button>
-          </div>
-        </div>
-        <div class="work">
-          <div class="vacancies">VACANCIES</div>
-
-          <div class="hiring">HIRING</div>
-
-          <div class="assesment">ASSESMENT</div>
+<body>
+  <div class="container-fluid">
+    <header>
+      <nav>
+        <div>
+          <h2>DEEP DIVE</h2>
         </div>
 
-        <div class="reviews">REVIEWS</div>
-      </main>
-
-      <footer>
         <div>
           <ul>
+            <li>Home</li>
             <li>About us</li>
-            <li>Jobs</li>
-            <li>Newsletter</li>
-            <li>Free-lancer</li>
-            <li>FAQ</li>
-            <li>Terms and conditions</li>
+            <li>Contact us</li>
           </ul>
+          <button type="button">LOG IN</button>
+        </div>
+      </nav>
+      <header class="v-header container">
+        <div class="fullscreen-video-wrap">
+          <video id="videoimage" src="../Deep-dive/resources/images/video.mp4" autoplay="" loop="">
+          </video>
+        </div>
+        <div class="header-overlay"></div>
+        <div class="header-content text-md-center">
+          <h1>Welcome to Deep-dive</h1>
+          <p>Deep-dive is an online freelance website in which you can market your skills or find freelances to do a job
+            for you </p>
+          <form class="form-2">
+            <div>
+              DEEP DIVE
+              <div id="heading-form-2">DEEP DIVE<br><br></div>
+              <label for="name">NAME</label>
+              <input placeholder="Your name" type="text" id="name" name="name" required><br><br>
+            </div>
+            <div>
+              <label for="email">EMAIL</label>
+              <input placeholder="Your email please" type="email" name="email" required><br><br>
+            </div>
+            <div class="terms" id="terms">
+              <input type="checkbox" required>
+              <label aria-required="true" for="terms ">I agree to Deep Dive user agreement and privacy policy</label>
+            </div>
+            <div class="join">
+              <button type="button" class="btn"
+                onclick="alert('An confirmation was sent to your email.Please check')">Join Deep Dive</button>
+            </div>
+            <div>
+              Already have an account? <span>Log in</span><br><br>
+            </div>
+          </form>
         </div>
 
-        <div class="sociallogos">
-          <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
-          <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
-          <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
-          <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+      </header>
+
+      </section>
+    </header>
+
+    <main>
+      <div class="home" id="home">
+        <div class="sign-up">
+          <button class="btn btn-primary">SIGN UP</button>
         </div>
-      </footer>
-    </div>
-  </body>
+      </div>
+      <div class="work">
+        <div class="vacancies">VACANCIES</div>
+
+        <div class="hiring">HIRING</div>
+
+        <div class="assesment">ASSESMENT</div>
+      </div>
+
+      <div class="reviews">REVIEWS</div>
+    </main>
+
+    <footer>
+      <div>
+        <ul>
+          <li>About us</li>
+          <li>Jobs</li>
+          <li>Newsletter</li>
+          <li>Free-lancer</li>
+          <li>FAQ</li>
+          <li>Terms and conditions</li>
+        </ul>
+      </div>
+
+      <div class="sociallogos">
+        <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+        <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+        <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+        <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+      </div>
+    </footer>
+  </div>
+</body>
+
 </html>
