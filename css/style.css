@@ -1,26 +1,30 @@
 #joy{
   font-size: larger;
   color: darkolivegreen;
-  text-align: center;
+  text-align: left;
+  font-family: monospace;
 }
-#p{
-  font-size: x-large;
-  color: black;
-  text-align: end;
+#ceo{
+ font-family: 'Times New Roman', Times, serif;
+ font-size: x-large;
 }
 #mark{
   font-size: larger;
   color: crimson;
-  text-align: center;
+  text-align: left;
+  font-family: monospace;
 }
-.p1{
-  font-size: xx-large;
-  color: black;
-  text-align: end;
-  
+#review1{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: x-large;
 }
 #susan{
   font-size: larger;
   color: darkslategray;
-  text-align: center;
+  text-align: left;
+  font-family: monospace;
+}
+#review2{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: x-large;
 }
