@@ -1,3 +1,4 @@
+
 #joy{
   font-size: larger;
   color: darkolivegreen;
@@ -29,3 +30,345 @@
   font-family: 'Times New Roman', Times, serif;
   font-size: x-large;
 }
+
+
+.form-2 {
+  background-image: url(/resources/images/grey.jpg);
+  background-position: inherit;
+  background-size: inherit;
+  background-repeat: no-repeat;
+  color: lightblue;
+}
+/*Styling the heading of form2*/
+#heading-form-2 {
+  text-align: center;
+}
+
+
+
+/*signup styling*/
+.form-2 {
+  background-image: url(/resources/images/grey.jpg);
+  background-position: inherit;
+  background-size: inherit;
+  background-repeat: no-repeat;
+  color: lightblue;
+}
+/*Styling the heading of form2*/
+#heading-form-2 {
+  text-align: center;
+}
+
+/*video section*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #333;
+  overflow-x: hidden;
+}
+#videoimage{
+  background-size: 200px;
+  width: 300px;
+  height: 300px;
+  border: 2px solid;
+}
+
+.v-header {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.container {
+  max-width: 960px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: auto;
+  text-align: center;
+}
+
+.fullscreen-video-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.fullscreen-video-wrap video {
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.header-overlay {
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 1;
+  background: #225470;
+  opacity: 0.85;
+}
+
+.header-content {
+  z-index: 2;
+}
+
+.header-content h1 {
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+.header-content p {
+  font-size: 1.5rem;
+  display: block;
+  padding-bottom: 2rem;
+}
+
+.btn {
+  background: #34b3a0;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  text-decoration: none;
+}
+
+.section {
+  padding: 20px 0;
+}
+
+.section-b {
+  background: #333;
+  color: #fff;
+}
+
+@media (max-width: 960px) {
+  .container {
+    padding-right: 3rem;
+    padding-left: 3rem;
+  }
+}
+
+#work {
+    background-color: #598397;
+    font-family: monospace;
+    padding: 3rem;
+    border: none;
+    margin: 1rem;
+    border-radius: 0.5rem;
+}
+
+#work p {
+    text-align: center;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+#work h2 {
+    margin-left: 5rem;
+      background-color: transparent;
+}
+.icons {
+    margin-left: 50%;
+}
+
+
+
+
+/* .col-md-4 p {
+    text-align: center;
+}
+.col-md-4 h2 {
+    text-align: center;
+} */
+.col-md-3 img {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 100%;
+    display: none;
+}
+.profiles {
+
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    display: none;
+}
+.profiles img{
+    height: 5rem;
+    width: 5rem;
+    margin: 0.3rem;
+}
+.profiles p{
+    display: inline;
+
+    text-align: center;
+}
+.profiles:hover{
+    cursor: pointer;
+}
+.jobs {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+
+#jobs-a {
+
+    display: none;
+      margin-left: 5rem;
+}
+#jobs-p { 
+    display:none
+}
+#work h2:hover{
+    text-shadow: 2px 2px 3px #01161E;
+    cursor: pointer;
+}
+
+.partners {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.assesment img {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 100%;
+    margin: 0.3rem;
+
+    margin-left: 4rem;
+    display: none;
+}
+.img-left {
+    float: left;
+}
+/* .img-right {
+    float: inherit;
+} */
+
+#ending {
+    list-style-type: none;
+}
+.col-md-2 {
+    float: left;
+}
+#main-log-in{
+    display: flex;
+    float: right;
+    background-color: rgb(34, 62, 139);
+}
+
+/*Styling h1*/
+h1{
+    text-align: center;
+    align-items: center;
+    background-color: #01161e;
+    color: rgb(144, 94, 190);
+}
+
+/*This is the log in form*/
+.needs-validation{
+    background-image: url(/resources/images/key1.jpeg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    text-align: center;
+    color: whitesmoke;
+
+}
+/*To hide the log in form*/
+#log-in-form{
+    display: none;
+}
+/*Styling the about us part*/
+#hide-about-us{
+    display: none;
+}
+#h-six{
+    color: ivory;
+
+}
+#us{
+    color: ivory;
+}
+
+#the-team{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(/resources/images/teamwork.webp) ;
+    background-position:inherit;
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+
+/*Styling heading one*/
+#heading-form-1{
+    font-size: large;
+    font-weight: bolder;
+}
+
+.form-2{
+    background-image: url(/resources/images/grey.jpg);
+    background-position: inherit;
+    background-size: inherit;
+    background-repeat: no-repeat;
+    color: lightblue;
+}
+/*Styling the heading of form2*/
+#heading-form-2{
+    
+    text-align: center;
+}
+/*Styling the header*/
+h2{
+    background-color: #01161e;
+}
+
+/*Styling the social media icons*/
+#social-logos{
+    background-color: #124559;
+}
+/*Styling the awards part*/
+#awards{
+    background-color: #022333;
+    color: ivory;
+}
+#FOOTER{
+    background-color: #022333;
+    
+}
+
+/*ON THE HEADER THE FIRST ELEMENTS*/
+.nav-item{
+    display: flex;
+    float:left;
+    margin-right: 3rem;
+    text-align: center;
+    background-color: #124559;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
