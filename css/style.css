@@ -1,4 +1,37 @@
 
+#joy{
+  font-size: larger;
+  color: darkolivegreen;
+  text-align: left;
+  font-family: monospace;
+}
+#ceo{
+ font-family: 'Times New Roman', Times, serif;
+ font-size: x-large;
+}
+
+#mark{
+  font-size: larger;
+  color: crimson;
+  text-align: left;
+  font-family: monospace;
+}
+#review1{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: x-large;
+}
+#susan{
+  font-size: larger;
+  color: darkslategray;
+  text-align: left;
+  font-family: monospace;
+}
+#review2{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: x-large;
+}
+
+
 .form-2 {
   background-image: url(/resources/images/grey.jpg);
   background-position: inherit;
@@ -326,6 +359,7 @@ h2{
     background-color: #124559;
     
 }
+
 
 
 
